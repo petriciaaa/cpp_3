@@ -1,20 +1,68 @@
-﻿// task_1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
+﻿#include <iostream>
+#include <string>
+#include<windows.h>
+#include <conio.h>
+#include "Fraction.h" 
 
-#include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+
+	int num1 , num2, num3, num4;
+	char oper1, oper2, calcChar;
+    char key;
+
+    while (true) {
+
+        cout << "Enter operation, type is a/b + c/d " << endl;
+        cin >> num1 >> oper1 >> num2 >> calcChar >> num3 >> oper2 >> num4;
+
+        Fraction fraction1(num1,num2);
+        Fraction fraction2(num3, num4);
+        
+        if (num2== 0 || num4 == 0)
+        {
+            return 0;
+        }
+          
+        ///
+        Fraction res;
+        switch (calcChar)
+        {
+        case '+':
+            res = fraction1.addition(fraction2); 
+            /*
+            * Overrided method call
+            */
+            //res = Fraction::addition(fraction1,fraction2);
+            break;
+        case '-':
+            res = fraction1.subtraction(fraction2);  
+            break;
+        case '*':
+            res = fraction1.multiplication(fraction2);  
+            break;
+        case '/':
+            res = fraction1.division(fraction2);
+            break;
+        default:
+            break;
+        }
+        res.reduce();
+        res.display();
+
+        cout << "Continue? (y/n)" << endl;
+
+        key = _getch();
+        if (key == 'n') {
+            cout << endl;
+            break;
+        }
+     
+    }
+
+    return 0;
 }
 
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.

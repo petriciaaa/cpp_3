@@ -13,10 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\src">
+      <UniqueIdentifier>{cd2a0238-1f80-42fd-813a-9a20cd315585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\classes">
+      <UniqueIdentifier>{a88bc7b9-647e-43ee-978c-58998c80bf4e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="task_1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Fraction.cpp">
+      <Filter>Исходные файлы\src\classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fraction.h">
+      <Filter>Исходные файлы\src\classes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
