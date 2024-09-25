@@ -1,8 +1,8 @@
 #pragma once
 class Fraction {
 private:
-    int numerator;   // Числитель
-    unsigned int denominator; // Знаменатель
+    int numerator;   
+    unsigned int denominator; 
 
 public:
 
