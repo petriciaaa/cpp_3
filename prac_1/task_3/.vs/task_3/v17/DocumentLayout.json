@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_3\\",
+  "WorkspaceRootPath": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_1\\task_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8D664CA-D1F1-45BD-BF8C-C85A1AE0A948}|task_3.vcxproj|C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_3\\task_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B8D664CA-D1F1-45BD-BF8C-C85A1AE0A948}|task_3.vcxproj|C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_1\\task_3\\task_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B8D664CA-D1F1-45BD-BF8C-C85A1AE0A948}|task_3.vcxproj|solutionrelative:task_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "task_3.cpp",
-              "DocumentMoniker": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_3\\task_3.cpp",
+              "DocumentMoniker": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_1\\task_3\\task_3.cpp",
               "RelativeDocumentMoniker": "task_3.cpp",
-              "ToolTip": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_3\\task_3.cpp",
+              "ToolTip": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_1\\task_3\\task_3.cpp",
               "RelativeToolTip": "task_3.cpp",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAACwAAAANAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAE0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-18T21:10:39.176Z",
               "EditorCaption": ""

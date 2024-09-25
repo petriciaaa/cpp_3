@@ -11,7 +11,8 @@ struct Color
 	int G;
 	int B;
 };
-
+COORD initLb = { 450,200 }, initRb = { 550,250 };
+Color initColor = { 12,123,12 };
 
 class Rect {
 
@@ -23,7 +24,7 @@ class Rect {
 
 
 	public:
-		Rect(COORD lt = { 700,250 }, COORD rb = { 800,300 }, Color c = { 12,123,12}):leftTop(lt) , rightBottom(rb),color(c) {
+		Rect(COORD lt = initLb, COORD rb = initRb, Color c = initColor):leftTop(lt) , rightBottom(rb),color(c) {
 			//
 		}
 		void setRect(COORD lb, COORD rb, Color c) {
@@ -57,9 +58,8 @@ class Rect {
 };
 
 
-const int INCREMENT = 100; 
-const int MAX_WIDTH = 1000;
-const int MAX_HEIGHT = MAX_WIDTH/2;
+const int INCREMENT = 50; 
+
 void increase(COORD* coord1, COORD* coord2) {
 	coord1->X -= INCREMENT; 
 	coord1->Y -= INCREMENT/2; 
@@ -80,37 +80,32 @@ int main() {
 	srand(time(0));
 
 	bool increasing = true; 
-	COORD originalLeftTop = { 700, 250 };
-	COORD originalRightBottom = { 800, 300 };
+
 	
 	while (true)
 	{
-		system("cls");
 
 		rect.drawRect();
 		COORD leftTop , rightBottom ;
 		rect.get_rect(&leftTop, &rightBottom);
+
 		if (increasing) {
-			if (rightBottom.X - leftTop.X < MAX_WIDTH && leftTop.Y > 0) {
-				increase(&leftTop, &rightBottom);
-			}
-			else {
-				increasing = false; 
+			increase(&leftTop, &rightBottom);
+			if (rightBottom.X >= 1000 || rightBottom.Y >= 600) {
+				increasing = false;
 			}
 		}
 		else {
-			if (rightBottom.X - leftTop.X > (originalRightBottom.X - originalLeftTop.X)) {
-				decrease(&leftTop, &rightBottom);
-			}
-			else {
-				increasing = true;
-				leftTop = originalLeftTop;
-				rightBottom = originalRightBottom;
+			decrease(&leftTop, &rightBottom);
+				if (initLb.Y == leftTop.Y && initLb.X == leftTop.X && initRb.Y == rightBottom.Y && initRb.X == rightBottom.X)
+				{
+					increasing = true;
+
 			}
 		}
 
 
-		rect.setRect(leftTop, rightBottom, { rand() % 256,rand() % 256,rand() % 256 });
+		rect.setRect(leftTop, rightBottom, { rand() % 255,rand() % 255,rand() % 255 });
 
 		Sleep(500);
 	}

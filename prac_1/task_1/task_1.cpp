@@ -15,19 +15,19 @@ class Rect {
 
 private:
 	COORD leftBottom;
-	COORD rightBottom;
+	COORD rightTop;
 	Color color;
 
 
 public:
 	Rect() {
-		leftBottom = { 0, 0 };
-		rightBottom = { 80, 25 };
-		color = { 0, 0, 0 };
+		leftBottom = { 100, 230 };
+		rightTop = { 280, 225 };
+		color = { 10, 10, 10 };
 	}
-	void setRect(COORD lb, COORD rb, Color c) {
+	void setRect(COORD lb, COORD rt, Color c) {
 		leftBottom = lb;
-		rightBottom = rb;
+		rightTop = rt;
 		color = c;
 	}
 	void drawRect() {
@@ -41,10 +41,10 @@ public:
 			hDeviceContext,
 			leftBottom.X,
 			leftBottom.Y,
-			rightBottom.X,
-			rightBottom.Y);
+			rightTop.X,
+			rightTop.Y);
 
-		DeleteObject(hBrush);
+		DeleteObject(hBrush);	
 		ReleaseDC(hWindow, hDeviceContext);
 
 
@@ -57,14 +57,17 @@ int main() {
 	Rect rect1;
 	Rect rect2;
 	Rect rect3;
+	Rect rect4;
 
-	rect1.setRect({120,20 }, { 310,310 }, { 250,130,80 });
-	rect2.setRect({ 140,160 }, { 365,620 }, { 50,10,80 });
-	rect3.setRect({ 410,325 }, { 470,110 }, { 20,13,0 });
+	rect1.setRect({ 120,20 }, { 310,310 }, { 250,130,80 });
+	rect2.setRect({ 440,160 }, { 500,340 }, { 50,10,80 });
+	rect3.setRect({ 620,325 }, { 720,110 }, { 20,13,130 });
+	rect4.setRect({ 820,105 }, { 900,410 }, {137,98,230 });
 
 	rect1.drawRect();
 	rect2.drawRect();
 	rect3.drawRect();
+	rect4.drawRect();
 
 	std::getchar();
 
