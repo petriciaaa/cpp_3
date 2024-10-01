@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\",
+  "WorkspaceRootPath": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\task_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\task_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|solutionrelative:task_3\\task_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|solutionrelative:task_3\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\Line.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|solutionrelative:task_3\\Line.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\Line.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|solutionrelative:task_3\\Line.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\Line.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|solutionrelative:task_3\\Line.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\Line.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4211CF32-AC30-473C-9E67-4E90BFC10FC2}|task_3\\task_3.vcxproj|solutionrelative:task_3\\Line.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,26 +38,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Line.cpp",
-              "DocumentMoniker": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\Line.cpp",
+              "DocumentMoniker": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\Line.cpp",
               "RelativeDocumentMoniker": "task_3\\Line.cpp",
-              "ToolTip": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\Line.cpp",
+              "ToolTip": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\Line.cpp",
               "RelativeToolTip": "task_3\\Line.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-25T14:10:11.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Line.h",
-              "DocumentMoniker": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\Line.h",
+              "DocumentMoniker": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\Line.h",
               "RelativeDocumentMoniker": "task_3\\Line.h",
-              "ToolTip": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\Line.h",
+              "ToolTip": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\Line.h",
               "RelativeToolTip": "task_3\\Line.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-25T14:10:10.892Z",
               "EditorCaption": ""
@@ -66,11 +66,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Color.h",
-              "DocumentMoniker": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\Color.h",
+              "DocumentMoniker": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\Color.h",
               "RelativeDocumentMoniker": "task_3\\Color.h",
-              "ToolTip": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\Color.h",
+              "ToolTip": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\Color.h",
               "RelativeToolTip": "task_3\\Color.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-25T14:10:10.028Z",
               "EditorCaption": ""
@@ -79,11 +79,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "task_3.cpp",
-              "DocumentMoniker": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\task_3.cpp",
+              "DocumentMoniker": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\task_3.cpp",
               "RelativeDocumentMoniker": "task_3\\task_3.cpp",
-              "ToolTip": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_2\\task_3\\task_3\\task_3.cpp",
+              "ToolTip": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_2\\task_3\\task_3\\task_3.cpp",
               "RelativeToolTip": "task_3\\task_3.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-25T14:10:07.972Z",
               "EditorCaption": ""

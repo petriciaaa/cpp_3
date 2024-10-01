@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_1\\task_2\\",
+  "WorkspaceRootPath": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5C2F629-B255-42BC-8A4D-8BF2068500B8}|task_2.vcxproj|C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_1\\task_2\\task_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C5C2F629-B255-42BC-8A4D-8BF2068500B8}|task_2.vcxproj|C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_2\\Circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C2F629-B255-42BC-8A4D-8BF2068500B8}|task_2.vcxproj|solutionrelative:Circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C2F629-B255-42BC-8A4D-8BF2068500B8}|task_2.vcxproj|C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_2\\task_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C5C2F629-B255-42BC-8A4D-8BF2068500B8}|task_2.vcxproj|solutionrelative:task_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C2F629-B255-42BC-8A4D-8BF2068500B8}|task_2.vcxproj|C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_2\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C2F629-B255-42BC-8A4D-8BF2068500B8}|task_2.vcxproj|solutionrelative:Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Circle.h",
+              "DocumentMoniker": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_2\\Circle.h",
+              "RelativeDocumentMoniker": "Circle.h",
+              "ToolTip": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_2\\Circle.h",
+              "RelativeToolTip": "Circle.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-01T19:04:50.707Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -27,12 +49,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Circle.cpp",
+              "DocumentMoniker": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_2\\Circle.cpp",
+              "RelativeDocumentMoniker": "Circle.cpp",
+              "ToolTip": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_2\\Circle.cpp",
+              "RelativeToolTip": "Circle.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-01T19:03:47.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "task_2.cpp",
-              "DocumentMoniker": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_1\\task_2\\task_2.cpp",
+              "DocumentMoniker": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_2\\task_2.cpp",
               "RelativeDocumentMoniker": "task_2.cpp",
-              "ToolTip": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_1\\task_2\\task_2.cpp",
+              "ToolTip": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_1\\task_2\\task_2.cpp",
               "RelativeToolTip": "task_2.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-18T20:23:39.095Z",
               "EditorCaption": ""

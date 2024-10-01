@@ -8,6 +8,13 @@ Line::Line(COORD start, COORD end, Color color, int width, const int lineType) {
     this->width = width;
     this->lineType = lineType;
 };
+void Line::setLine(COORD start, COORD end, Color color, int width, const int lineType) {
+    this->start = start;
+    this->end = end;
+    this->color = color;
+    this->width = width;
+    this->lineType = lineType;
+};
 
 void Line::draw() {
 
@@ -23,4 +30,20 @@ void Line::draw() {
 
         DeleteObject(hPen);
         ReleaseDC(hWindow, hDeviceContext);
+};
+void Line::setCords(COORD start, COORD end) {
+    this->start = start;
+    this->end = end;
+  
+        
+};
+COORD Line::getEnd() {
+ 
+    return this->start;
+        
+}; COORD Line::getStart() {
+    return this->end;
+
+  
+        
 };

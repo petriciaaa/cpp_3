@@ -16,6 +16,11 @@ class Line {
     public:
   
         Line(COORD start, COORD end, Color color, int width, int lineType);
+        void setLine(COORD start, COORD end, Color color, int width, int lineType);
+
         void draw();
+        void setCords(COORD start, COORD end);
+        COORD getStart();
+        COORD getEnd();
 
 };
