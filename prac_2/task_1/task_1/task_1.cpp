@@ -21,6 +21,7 @@ int main()
 
         Fraction fraction1(num1,num2);
         Fraction fraction2(num3, num4);
+        Fraction fraction3;
         
         if (num2== 0 || num4 == 0)
         {
@@ -28,30 +29,26 @@ int main()
         }
           
         ///
-        Fraction res;
         switch (calcChar)
         {
         case '+':
-            res = fraction1.addition(fraction2); 
-            /*
-            * Overrided method call
-            */
-            //res = Fraction::addition(fraction1,fraction2);
+            fraction3.addition(fraction1,fraction2);
             break;
         case '-':
-            res = fraction1.subtraction(fraction2);  
+            fraction3.subtraction(fraction1, fraction2);
+
             break;
         case '*':
-            res = fraction1.multiplication(fraction2);  
+            fraction3.multiplication(fraction1, fraction2);
+
             break;
         case '/':
-            res = fraction1.division(fraction2);
+            fraction3.division(fraction1, fraction2);
             break;
         default:
             break;
         }
-        res.reduce();
-        res.display();
+        fraction3.display();
 
         cout << "Continue? (y/n)" << endl;
 

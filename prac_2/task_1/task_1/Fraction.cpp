@@ -19,30 +19,31 @@ void Fraction::display(){
     }
 	std::cout << numerator << "/" << denominator<<std::endl;
 };
-/*
-* Override of addition method
-*/
 
-Fraction Fraction::addition( Fraction fraction) {
-	return Fraction(numerator * fraction.denominator + fraction.numerator * denominator, denominator * fraction.denominator);
+void Fraction::addition(Fraction fraction1, Fraction fraction2) {
+    numerator = (fraction1.numerator * fraction2.denominator + fraction2.numerator * fraction1.denominator);
+    denominator = (fraction1.denominator * fraction2.denominator);
+    reduce();
 };
 
- Fraction Fraction::addition( Fraction fraction1,Fraction fraction2) {
-	return Fraction(fraction1.numerator * fraction2.denominator + fraction2.numerator * fraction1.denominator, fraction1.denominator * fraction2.denominator);
-}; 
 
- /*
- */
-Fraction Fraction::subtraction(Fraction fraction) {
-	return Fraction(numerator * fraction.denominator - fraction.numerator * denominator, denominator * fraction.denominator);
+void Fraction::subtraction(Fraction fraction1, Fraction fraction2) {
+    numerator = (fraction1.numerator * fraction2.denominator - fraction2.numerator * fraction1.denominator);
+    denominator = (fraction1.denominator * fraction2.denominator);
+    reduce();
 };
 
-Fraction Fraction::multiplication(Fraction fraction) {
-	return Fraction(numerator * fraction.numerator , denominator * fraction.denominator);
+void Fraction::multiplication(Fraction fraction1, Fraction fraction2) {
+    numerator = (fraction2.numerator * fraction1.numerator);
+    denominator = (fraction1.denominator* fraction2.denominator);
+    reduce();
 };
 
-Fraction Fraction::division(Fraction fraction) {
-	return Fraction(numerator * fraction.denominator, denominator * fraction.numerator);
+void Fraction::division(Fraction fraction1, Fraction fraction2) {
+    numerator = (fraction1.numerator * fraction2.denominator);
+    denominator =  (fraction1.denominator* fraction2.numerator);
+    reduce();
+
 }; 
 
 void Fraction::reduce() {

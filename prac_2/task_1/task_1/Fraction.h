@@ -3,6 +3,7 @@ class Fraction {
 private:
     int numerator;   
     unsigned int denominator; 
+    void reduce();
 
 public:
 
@@ -13,10 +14,8 @@ public:
 
     void display();
 
-    Fraction addition(Fraction fraction);
-    static Fraction addition(Fraction fraction1, Fraction fraction2);
-    Fraction subtraction( Fraction fraction) ;
-    Fraction multiplication( Fraction fraction) ;
-    Fraction division( Fraction fraction) ;
-    void reduce();
+    void addition(Fraction fraction1, Fraction fraction2);
+    void subtraction(Fraction fraction1, Fraction fraction2) ;
+    void multiplication(Fraction fraction1, Fraction fraction2) ;
+    void division( Fraction fraction1, Fraction fraction2 ) ;
 };

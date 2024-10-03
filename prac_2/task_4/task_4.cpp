@@ -11,8 +11,8 @@ const COORD INIT_START = { 500,300 };
 const COORD CENTER = { 500, 300 };
 const COORD INIT_END = { 500,100 };
 const int RADIUS = 200;
-const int INCREMENT = 3.5;
-const double  M_PI = 3.1423343123;
+const int INCREMENT = 3;
+const double  PI = 3.1423343123;
 
 int main()
 {
@@ -34,13 +34,15 @@ int main()
     Circle circle(CENTER, RADIUS + 3 ,{200,20,02});
     circle.draw();
 
+    COORD start = { CENTER.X, CENTER.Y };
+
+
     Line line(INIT_START, INIT_END, COLOR, 5, PS_SOLID);
    
     int angle = 270;
     while (true)
     {
-        double radians = angle * (M_PI / 180.0); 
-        COORD start = { CENTER.X, CENTER.Y };
+        double radians = angle * (PI / 180); 
         COORD end;
 
         end.X = CENTER.X + int(RADIUS * cos(radians) ); 
@@ -50,7 +52,7 @@ int main()
         line.draw();
       
         angle += INCREMENT;
-        if (angle >= 360) angle -= 360; 
+        if (angle >= 360) angle = 0; 
 
         Sleep(1000);
         line.setLine(start, end, { 200,20,02 }, 5, PS_SOLID);
