@@ -10,3 +10,5 @@
 3. ```git clone``` with this repositore https url (green button)
 
 
+### FORCE pushes
+ 1) 08.10.2024
