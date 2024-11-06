@@ -22,7 +22,7 @@ public:
 		}
 		if (s2.isEmpty())
 		{
-			std::cout << "Error: stack is empty";
+			std::cout << "Error: queue is empty";
 			return NULL;
 
 		}

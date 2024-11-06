@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="task_1.cpp" />
     <ClCompile Include="x64\queue.cpp" />
     <ClCompile Include="x64\queue.h" />
-    <ClCompile Include="x64\task_3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="x64\stack.h" />

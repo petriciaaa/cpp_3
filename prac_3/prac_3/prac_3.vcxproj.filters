@@ -21,7 +21,7 @@
     <ClCompile Include="x64\queue.h">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="x64\task_3.cpp">
+    <ClCompile Include="task_1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
