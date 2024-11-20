@@ -1,2 +1,6 @@
-﻿  task_1.cpp
-  prac_5.vcxproj -> C:\Users\23000232\Desktop\prac\cpp_3\prac_5\x64\Debug\prac_5.exe
+﻿  task_4.cpp
+C:\Users\petri\OneDrive\Рабочий стол\Unik\sem_3\cpp\prac_5\prac_5\task_4.cpp(54,31): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+C:\Users\petri\OneDrive\Рабочий стол\Unik\sem_3\cpp\prac_5\prac_5\task_4.cpp(54,51): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+C:\Users\petri\OneDrive\Рабочий стол\Unik\sem_3\cpp\prac_5\prac_5\task_4.cpp(55,31): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+C:\Users\petri\OneDrive\Рабочий стол\Unik\sem_3\cpp\prac_5\prac_5\task_4.cpp(55,51): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+  prac_5.vcxproj -> C:\Users\petri\OneDrive\Рабочий стол\Unik\sem_3\cpp\prac_5\x64\Debug\prac_5.exe
