@@ -26,6 +26,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "task_4.cpp",
               "DocumentMoniker": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_5\\prac_5\\task_4.cpp",
@@ -33,6 +34,39 @@
               "ToolTip": "C:\\Users\\petri\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Unik\\sem_3\\cpp\\prac_5\\prac_5\\task_4.cpp",
               "RelativeToolTip": "prac_5\\task_4.cpp",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAdAAAA",
+=======
+              "DocumentIndex": 2,
+              "Title": "Queue.h",
+              "DocumentMoniker": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_5\\prac_5\\Queue.h",
+              "RelativeDocumentMoniker": "prac_5\\Queue.h",
+              "ToolTip": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_5\\prac_5\\Queue.h",
+              "RelativeToolTip": "prac_5\\Queue.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-06T14:46:36.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stack.h",
+              "DocumentMoniker": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_5\\prac_5\\Stack.h",
+              "RelativeDocumentMoniker": "prac_5\\Stack.h",
+              "ToolTip": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_5\\prac_5\\Stack.h",
+              "RelativeToolTip": "prac_5\\Stack.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-06T14:46:26.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "task_1.cpp",
+              "DocumentMoniker": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_5\\prac_5\\task_1.cpp",
+              "RelativeDocumentMoniker": "prac_5\\task_1.cpp",
+              "ToolTip": "C:\\Users\\23000232\\Desktop\\prac\\cpp_3\\prac_5\\prac_5\\task_1.cpp*",
+              "RelativeToolTip": "prac_5\\task_1.cpp*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+>>>>>>> 7f2ce3b55c33e595a711392255e78db7fe3b43aa
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-17T22:44:30.851Z",
               "EditorCaption": ""
